@@ -6,16 +6,23 @@ body {
   background: url("../images/sloth-bg.svg") left top / 48px repeat #bea586;
 }
 
+h1,
+figcaption {
+  font-family: Georgia, sans-serif;
+}
+
 h1 {
   color: #fff;
-  font-family: Georgia, sans-serif;
+  text-shadow: 2px 2px 2px rgb(28, 14, 0);
 }
 
 .wrapper {
   background-color: #fff;
 }
 
-.hero {
+.banner,
+figure,
+.img-wrapper {
   border-top: 2px solid rgba(28, 14, 0, .6);
   border-bottom: 2px solid rgba(28, 14, 0, .6);
 }
