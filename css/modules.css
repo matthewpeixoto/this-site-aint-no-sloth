@@ -1,7 +1,7 @@
 /*
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;positioning
+ * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;positioning
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -206,6 +206,27 @@ svg.img-flex {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.media {
+  overflow: hidden;
+}
+
+.media-img, .media__img {
+  float: left;
+}
+
+.media-img-reversed, .media__img--reversed {
+  float: right;
+}
+
+.media-img-stacked, .media__img--stacked {
+  float: none;
+}
+
+.media-body, .media__body {
+  overflow: hidden;
+  min-width: 12em; /* Slightly less than 200px, responsiveness built in */
 }
 
 .center {

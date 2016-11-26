@@ -10,6 +10,20 @@ body {
   background-color: #fff;
 }
 
+.banner,
+figure,
+.img-wrapper {
+  padding: 3px 0;
+  border-top: 2px solid rgba(28, 14, 0, .6);
+  border-bottom: 2px solid rgba(28, 14, 0, .6);
+}
+
+.banner-content {
+  top: 3px;
+
+  background: linear-gradient(to bottom, rgba(28, 14, 0, .8), transparent) no-repeat center bottom;
+}
+
 h1,
 figcaption {
   font-family: Georgia, sans-serif;
@@ -22,17 +36,4 @@ h1 {
 
 .link {
   color: #000;
-}
-
-.banner,
-.img-wrapper,
-figure {
-  border-top: 2px solid rgba(28, 14, 0, .6);
-  border-bottom: 2px solid rgba(28, 14, 0, .6);
-}
-
-.banner-content {
-  top: 3px;
-
-  background: linear-gradient(to bottom, rgba(28, 14, 0, .8), transparent) no-repeat center bottom;
 }
