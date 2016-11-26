@@ -14,6 +14,7 @@ body {
 figure,
 .img-wrapper {
   padding: 3px 0;
+
   border-top: 2px solid rgba(28, 14, 0, .6);
   border-bottom: 2px solid rgba(28, 14, 0, .6);
 }
